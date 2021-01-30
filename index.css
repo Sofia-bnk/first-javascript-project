@@ -1,0 +1,157 @@
+.btn {
+  margin: 8px;
+  border-radius: 5px;
+  border-color: transparent;
+  width: 100px;
+  height: 30px;
+  font-size: 1rem;
+  color: white;
+  background-color: #f27830;
+  outline: none;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: #bf472c;
+  cursor: pointer;
+}
+.container {
+  width: 100px;
+  height: 30px;
+  border-radius: 1rem;
+  outline: none;
+}
+#countryContainer {
+  width: 220px;
+  align-items: center;
+}
+#content {
+  line-height: 1.6;
+  text-align: center;
+  font-weight: 900;
+}
+#cities {
+  height: 31vh;
+  width: 20rem;
+  overflow: scroll;
+  background-color: white;
+  padding: 5px 5px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+}
+#footer {
+  height: 10vh;
+  color: white;
+  background-color: rgb(54, 54, 54);
+  text-align: center;
+  padding-top: 10rem;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: auto;
+  grid-gap: 2rem;
+  margin-top: 5rem;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav {
+  height: 8rem;
+  position: relative;
+}
+
+#input {
+  text-align: center;
+  height: 3rem;
+  padding-top: 3rem;
+}
+#glob {
+  font-size: 3rem;
+  color: rgb(54, 54, 54);
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+em {
+  font-family: "Grandstander", cursive;
+}
+#main {
+  background-image: url("greenGlob.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  padding: 2rem;
+}
+
+#postDiv {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 2rem;
+  align-items: center;
+  margin-top: 6rem;
+}
+#putDiv {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 2rem;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+#postDivHolder {
+  height: 30vh;
+  width: 20rem;
+  background-color: white;
+  padding: 10px 10px;
+  border: 1px solid;
+}
+#putDivHolder {
+  height: 30vh;
+  width: 20rem;
+  background-color: white;
+  padding: 10px 10px;
+  border: 1px solid;
+}
+#newPopulationContainer {
+  margin-right: 3rem;
+}
+#populationContainer {
+  margin-right: 3rem;
+}
+section {
+  opacity: 0.7;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: white;
+}
+#city {
+  margin: 3rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  height: 50vh;
+  background-color: #154d5e;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+body {
+  height: 100vh;
+  font-family: "Grandstander", cursive;
+  font-family: "Mali", cursive;
+  margin: 0;
+}
+
+.cross {
+  float: right;
+}
+.cross:hover {
+  color: orangered;
+  cursor: pointer;
+}
+.sub {
+  color: #f27830;
+}

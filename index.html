@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contries</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Grandstander:wght@300&family=Mali:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+  </head>
+
+  <body>
+    <nav>
+      <i class="fas fa-globe-americas" id="glob"
+        ><em>Country'sBorderCounter</em></i
+      >
+
+      <br />
+    </nav>
+    <div id="graph">
+      <canvas id="myChart"></canvas>
+    </div>
+    <div id="main">
+      <div id="input">
+        <select
+          class="container"
+          id="countryContainer"
+          name="countris"
+        ></select>
+        <button class="btn" id="countryBtn">Add</button>
+      </div>
+
+      <div id="grid"></div>
+    </div>
+
+    <div id="box">
+      <div id="city">
+        <div id="citiesContainer">
+          <h1 class="sub">Fetch Cities</h1>
+          <div id="cities"></div>
+          <div id="buttonHolder">
+            <button class="btn" id="citiesBtn">Cities</button>
+            <button class="btn" id="deleteBtn">Delete</button>
+          </div>
+        </div>
+
+        <div id="post">
+          <h1 class="sub">Add City</h1>
+          <div id="postDivHolder">
+            <div id="postDiv">
+              <div id="nameContainerDiv">
+                <span>City: </span>
+                <input type="text" class="container" id="nameContainer" />
+              </div>
+              <div id="populationContainerDiv">
+                <span>Population: </span>
+                <input type="text" class="container" id="populationContainer" />
+              </div>
+            </div>
+          </div>
+          <input class="btn" id="submitBtn1" type="submit" value="Submit" />
+        </div>
+
+        <div id="put">
+          <h1 class="sub">Update City</h1>
+          <div id="putDivHolder">
+            <div id="putDiv">
+              <div id="oldCityDiv">
+                <span>Old city: </span>
+                <input type="text" class="container" id="oldCityContainer" />
+              </div>
+
+              <div id="newCityDivName">
+                <span>New city:</span>
+                <input type="text" class="container" id="newCityContainer" />
+              </div>
+              <div id="newCityDivPopulation">
+                <span>New Population:</span>
+                <input
+                  type="text"
+                  class="container"
+                  id="newPopulationContainer"
+                />
+              </div>
+            </div>
+          </div>
+          <input class="btn" id="submitBtn2" type="submit" value="Submit" />
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer">Proudly created by Sofia</footer>
+  </body>
+  <script src="index.js"></script>
+</html>
